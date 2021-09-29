@@ -26,14 +26,45 @@ if "somthing" not in a:
 x = "The King Maker\n"
 print(3*x)
 '''
+
 '''
 s = 'Verification'
 r = ' Engineer'
 print(s+r)
 '''
 
+
 a = "feel my love"
+b = " Something something "
+c = "Hello, world"
 print(a.upper())
+print(a.lower())
+print(b.strip())
+print(b.replace("something","special"))
+print(c.split(","))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
