@@ -72,6 +72,7 @@ print(x)
 print(y)
 '''
 
+'''
 import re
 
 #Replace all white-space characters with the digit "9":
@@ -82,53 +83,15 @@ x = re.sub("\s", "_", txt)
 y = re.sub("\s","_",file,2)
 print(x)
 print(y)
+'''
 
 
+import re
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-   
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+line = "This is Venkatesh and my work is to verify the SoC work level Ip's work the help oh UVM "
+#replace= 'IP'
+sz=re.sub("Ip's","IP",line)
+print(sz)
 
 
 

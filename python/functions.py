@@ -1,6 +1,7 @@
 #//--------------------------------------------------------------------------------------------
 #// Python Functions Method
 #//--------------------------------------------------------------------------------------------
+
 '''
 def my_function():
   print("Hello World")
@@ -69,17 +70,33 @@ fruits = ["apple","banana","orange"]
 my_function(fruits)
 '''
 
+'''
 def my_function(x):
   return 5*x
 
 print(my_function(3))
 print(my_function(5))
 print(my_function(6))
+'''
 
+'''
+def func(a,b,*r):
+  if(a>b):
+    c=a*b
+    return(print("True with %s"%(r)))
+  else:
+    return(print("False",r))
 
+x=func(1,2,[3,5,6])
+print(x)
+'''
 
+#Function Definition :
+def function_with_default_arg(name="Jasmine",number=3):
+      print(name+"'s","number is",number);
 
-
+#Function Call :
+function_with_default_arg("Paul");
 
 
 

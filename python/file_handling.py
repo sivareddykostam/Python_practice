@@ -33,14 +33,13 @@ print(f.read())
 '''
 
 
-'''
 f = open("demofile.txt","w")
 f.write("All The Best")
 f.close()
 
 f = open("demofile.txt","r")
 print(f.read())
-'''
+
 
 #f = open("my_file.txt","w")
 
@@ -51,10 +50,10 @@ os.remove("my_file.txt")
 
 
 #a = open("my_world.txt","w")
-
+'''
 import os
 os.remove("my_world.txt")
-
+'''
 
 
 

@@ -38,3 +38,7 @@ a = 9
 b = 2
 print(a%b)
 
+
+#floating
+a = 8.5
+print(a)
